@@ -10,6 +10,8 @@
 # Dê um exemplo concreto do que você usou nesta atividade.
 
 Resposta:
+Nos shells modernos, essa tarefa é realizada por meio dos operadores de redirecionamento de entrada e saída (>, <, >>) e dos pipes (|), em conjunto com os descritores de arquivos padrão (stdin, stdout e stderr). Esses recursos possibilitam direcionar os dados produzidos ou recebidos por um programa para arquivos, dispositivos ou até mesmo para outros processos, desempenhando um papel equivalente ao de associação de recursos realizado pelo JCL.
+
 
 
 # ─────────────────────────────────────────────────────
@@ -22,6 +24,7 @@ Resposta:
 #    que não mudou?
 
 Resposta 1:
+O Make realiza esse controle por meio de uma árvore de dependências e de regras de inferência. Ele verifica as datas e horários de modificação (timestamps) do arquivo alvo (target) e de seus arquivos dependentes. Quando alguma dependência foi modificada mais recentemente que o arquivo gerado (como um objeto ou executável), o Make identifica a mudança e executa novamente a compilação necessária. Caso contrário, a etapa é ignorada, evitando processamento desnecessário e economizando tempo.
 
 
 # 2. O monitor unificava "supervisor, carregador e rotinas de I/O
@@ -29,3 +32,4 @@ Resposta 1:
 #    de desenvolvimento moderno?
 
 Resposta 2:
+O Makefile funciona como um ponto central de automação, reunindo em um único arquivo as diversas etapas do desenvolvimento de software, como compilação e ligação do código, execução de testes automatizados, remoção de arquivos temporários (clean), geração de documentação e processos de instalação ou deploy.
